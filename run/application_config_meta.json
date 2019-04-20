@@ -1,0 +1,388 @@
+{
+  "debug": "/Users/neyio/Nuxt/config/config.default.js",
+  "keys": "/Users/neyio/Nuxt/config/config.default.js",
+  "middleware": "/Users/neyio/Nuxt/config/config.default.js",
+  "appName": "/Users/neyio/Nuxt/config/config.default.js",
+  "cacheNamespace": {
+    "userInfo": "/Users/neyio/Nuxt/config/config.default.js"
+  },
+  "compress": {
+    "threshold": "/Users/neyio/Nuxt/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/neyio/Nuxt/config/config.default.js",
+    "dir": "/Users/neyio/Nuxt/config/config.default.js",
+    "dynamic": "/Users/neyio/Nuxt/config/config.default.js",
+    "preload": "/Users/neyio/Nuxt/config/config.default.js",
+    "buffer": "/Users/neyio/Nuxt/config/config.default.js",
+    "maxFiles": "/Users/neyio/Nuxt/config/config.default.js",
+    "maxAge": "/Users/neyio/Nuxt/config/config.default.js"
+  },
+  "cluster": {
+    "listen": {
+      "path": "/Users/neyio/Nuxt/config/config.default.js",
+      "port": "/Users/neyio/Nuxt/config/config.default.js",
+      "hostname": "/Users/neyio/Nuxt/config/config.default.js"
+    }
+  },
+  "sequelize": {
+    "datasources": "/Users/neyio/Nuxt/config/config.default.js",
+    "dialect": "/Users/neyio/Nuxt/node_modules/egg-sequelize/config/config.default.js",
+    "database": "/Users/neyio/Nuxt/node_modules/egg-sequelize/config/config.default.js",
+    "host": "/Users/neyio/Nuxt/node_modules/egg-sequelize/config/config.default.js",
+    "port": "/Users/neyio/Nuxt/node_modules/egg-sequelize/config/config.default.js",
+    "username": "/Users/neyio/Nuxt/node_modules/egg-sequelize/config/config.default.js",
+    "password": "/Users/neyio/Nuxt/node_modules/egg-sequelize/config/config.default.js"
+  },
+  "redis": {
+    "client": {
+      "port": "/Users/neyio/Nuxt/config/config.default.js",
+      "host": "/Users/neyio/Nuxt/config/config.default.js",
+      "password": "/Users/neyio/Nuxt/config/config.default.js",
+      "db": "/Users/neyio/Nuxt/config/config.default.js"
+    },
+    "default": "/Users/neyio/Nuxt/node_modules/egg-redis/config/config.default.js",
+    "app": "/Users/neyio/Nuxt/node_modules/egg-redis/config/config.default.js",
+    "agent": "/Users/neyio/Nuxt/node_modules/egg-redis/config/config.default.js",
+    "supportTimeCommand": "/Users/neyio/Nuxt/node_modules/egg-redis/config/config.default.js"
+  },
+  "security": {
+    "xframe": {
+      "enable": "/Users/neyio/Nuxt/config/config.default.js",
+      "value": "/Users/neyio/Nuxt/node_modules/egg-security/config/config.default.js"
+    },
+    "csrf": {
+      "enable": "/Users/neyio/Nuxt/config/config.default.js",
+      "useSession": "/Users/neyio/Nuxt/config/config.default.js",
+      "ignoreJSON": "/Users/neyio/Nuxt/config/config.default.js",
+      "cookieName": "/Users/neyio/Nuxt/config/config.default.js",
+      "sessionName": "/Users/neyio/Nuxt/config/config.default.js",
+      "headerName": "/Users/neyio/Nuxt/config/config.default.js",
+      "bodyName": "/Users/neyio/Nuxt/config/config.default.js",
+      "queryName": "/Users/neyio/Nuxt/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/neyio/Nuxt/config/config.default.js",
+    "protocolWhiteList": "/Users/neyio/Nuxt/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/neyio/Nuxt/node_modules/egg-security/config/config.default.js",
+    "hsts": {
+      "enable": "/Users/neyio/Nuxt/node_modules/egg-security/config/config.default.js",
+      "maxAge": "/Users/neyio/Nuxt/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/neyio/Nuxt/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/neyio/Nuxt/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/neyio/Nuxt/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/neyio/Nuxt/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/neyio/Nuxt/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/neyio/Nuxt/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/neyio/Nuxt/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/neyio/Nuxt/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/neyio/Nuxt/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/neyio/Nuxt/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/neyio/Nuxt/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/neyio/Nuxt/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/neyio/Nuxt/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "/Users/neyio/Nuxt/config/config.default.js",
+    "allowMethods": "/Users/neyio/Nuxt/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/neyio/Nuxt/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/neyio/Nuxt/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/neyio/Nuxt/config/config.default.js",
+    "request": {
+      "timeout": "/Users/neyio/Nuxt/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/neyio/Nuxt/config/config.default.js",
+      "freeSocketTimeout": "/Users/neyio/Nuxt/config/config.default.js",
+      "timeout": "/Users/neyio/Nuxt/config/config.default.js",
+      "maxSockets": "/Users/neyio/Nuxt/config/config.default.js",
+      "maxFreeSockets": "/Users/neyio/Nuxt/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/neyio/Nuxt/config/config.default.js",
+      "freeSocketTimeout": "/Users/neyio/Nuxt/config/config.default.js",
+      "timeout": "/Users/neyio/Nuxt/config/config.default.js",
+      "maxSockets": "/Users/neyio/Nuxt/config/config.default.js",
+      "maxFreeSockets": "/Users/neyio/Nuxt/config/config.default.js"
+    }
+  },
+  "io": {
+    "mutiClientOnline": "/Users/neyio/Nuxt/config/config.default.js",
+    "defaultCacheNamespaceHashPrefix": "/Users/neyio/Nuxt/config/config.default.js",
+    "init": {
+      "wsEngine": "/Users/neyio/Nuxt/config/config.default.js"
+    },
+    "namespace": {
+      "/": {
+        "connectionMiddleware": "/Users/neyio/Nuxt/config/config.default.js",
+        "packetMiddleware": "/Users/neyio/Nuxt/config/config.default.js"
+      }
+    },
+    "redis": {
+      "host": "/Users/neyio/Nuxt/config/config.default.js",
+      "port": "/Users/neyio/Nuxt/config/config.default.js",
+      "auth_pass": "/Users/neyio/Nuxt/config/config.default.js",
+      "db": "/Users/neyio/Nuxt/config/config.default.js"
+    },
+    "generateId": "/Users/neyio/Nuxt/config/config.default.js"
+  },
+  "view": {
+    "defaultViewEngine": "/Users/neyio/Nuxt/config/config.default.js",
+    "mapping": {
+      ".html": "/Users/neyio/Nuxt/config/config.default.js"
+    },
+    "root": "/Users/neyio/Nuxt/config/config.default.js",
+    "cache": "/Users/neyio/Nuxt/node_modules/egg-view/config/config.default.js",
+    "defaultExtension": "/Users/neyio/Nuxt/node_modules/egg-view/config/config.default.js"
+  },
+  "logger": {
+    "appLogName": "/Users/neyio/Nuxt/config/config.default.js",
+    "coreLogName": "/Users/neyio/Nuxt/config/config.default.js",
+    "agentLogName": "/Users/neyio/Nuxt/config/config.default.js",
+    "errorLogName": "/Users/neyio/Nuxt/config/config.default.js",
+    "dir": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+    "env": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+    "level": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/neyio/Nuxt/node_modules/egg/config/config.unittest.js",
+    "disableConsoleAfterReady": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/neyio/Nuxt/node_modules/egg/config/config.unittest.js",
+    "coreLogger": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+    "allowDebugAtProd": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js"
+  },
+  "bull": {
+    "clients": {
+      "mainQueue": {
+        "name": "/Users/neyio/Nuxt/config/config.default.js"
+      },
+      "supportQueue": {
+        "name": "/Users/neyio/Nuxt/config/config.default.js"
+      }
+    },
+    "default": {
+      "redis": {
+        "host": "/Users/neyio/Nuxt/config/config.default.js",
+        "port": "/Users/neyio/Nuxt/config/config.default.js",
+        "password": "/Users/neyio/Nuxt/config/config.default.js",
+        "db": "/Users/neyio/Nuxt/config/config.default.js"
+      }
+    },
+    "app": "/Users/neyio/Nuxt/node_modules/egg-bull-queue/config/config.default.js",
+    "agent": "/Users/neyio/Nuxt/node_modules/egg-bull-queue/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/neyio/Nuxt/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/neyio/Nuxt/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/neyio/Nuxt/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/neyio/Nuxt/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/neyio/Nuxt/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/neyio/Nuxt/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/neyio/Nuxt/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/neyio/Nuxt/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/neyio/Nuxt/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/neyio/Nuxt/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/neyio/Nuxt/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/neyio/Nuxt/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/neyio/Nuxt/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/neyio/Nuxt/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/neyio/Nuxt/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/neyio/Nuxt/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/neyio/Nuxt/node_modules/egg-watcher/config/config.unittest.js",
+    "eventSources": {
+      "default": "/Users/neyio/Nuxt/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/neyio/Nuxt/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/neyio/Nuxt/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/neyio/Nuxt/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/neyio/Nuxt/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/neyio/Nuxt/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/neyio/Nuxt/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/neyio/Nuxt/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/neyio/Nuxt/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/neyio/Nuxt/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/neyio/Nuxt/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/neyio/Nuxt/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/neyio/Nuxt/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/neyio/Nuxt/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/neyio/Nuxt/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/neyio/Nuxt/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/neyio/Nuxt/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/neyio/Nuxt/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/neyio/Nuxt/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/neyio/Nuxt/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/neyio/Nuxt/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/neyio/Nuxt/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/neyio/Nuxt/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/neyio/Nuxt/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "/Users/neyio/Nuxt/node_modules/egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/neyio/Nuxt/node_modules/egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/neyio/Nuxt/node_modules/egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/neyio/Nuxt/node_modules/egg-view-nunjucks/config/config.default.js",
+    "cache": "/Users/neyio/Nuxt/node_modules/egg-view-nunjucks/config/config.default.js"
+  },
+  "env": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+  "name": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+    "version": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+    "description": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+    "author": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+    "private": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "dev": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "dev2": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "debug": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "start": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "stop": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "build": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "generate": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "lint": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "precommit": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "test": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "@nuxtjs/axios": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "@nuxtjs/pwa": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "cross-env": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "egg": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "egg-alinode": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "egg-bull-queue": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "egg-mysql": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "egg-redis": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "egg-router-plus": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "egg-sequelize": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "egg-socket.io": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "element-ui": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "koa": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "koa-compress": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "mysql2": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "nuxt": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "@nuxtjs/eslint-config": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "@vue/test-utils": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "autod": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "babel-core": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "babel-eslint": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "babel-jest": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "egg-sequelize-auto": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "eslint-config-alloy": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "eslint-config-prettier": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "eslint-config-standard": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "eslint-loader": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "eslint-plugin-import": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "eslint-plugin-jest": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "eslint-plugin-node": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "eslint-plugin-nuxt": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "eslint-plugin-prettier": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "eslint-plugin-promise": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "eslint-plugin-standard": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "eslint-plugin-vue": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "jest": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "nodemon": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "prettier": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "sequelize-cli": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "vue-jest": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+    "strict": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "depth": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+    "logging": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+  "clusterClient": {
+    "maxWaitTime": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/neyio/Nuxt/node_modules/egg/config/config.default.js"
+}
