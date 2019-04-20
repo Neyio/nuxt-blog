@@ -12,14 +12,14 @@ module.exports = app => {
     // const cert = fs.readFileSync('./cert/oauth-public.key') // get public key
     // app.passportPublicKey = cert
     // Instantiate nuxt.js
-    const nuxt = new Nuxt(config)
-    app.nuxt = nuxt
+    app.nuxt = new Nuxt(config)
     // Build in development
-    if (config.dev) {
-      const builder = new Builder(nuxt)
+    if (true) {
+      console.log('CurrentMode ====> develop mode')
+      const builder = new Builder(app.nuxt)
       await builder.build()
     } else {
-      await nuxt.ready()
+      await app.nuxt.ready()
     }
     config.dev = !(config.env === 'production')
     const room = await app.redis.get('room:demo')
